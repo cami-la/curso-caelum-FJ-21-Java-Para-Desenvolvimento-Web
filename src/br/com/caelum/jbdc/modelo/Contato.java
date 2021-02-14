@@ -11,6 +11,10 @@ public class Contato {
 	private String email;
 	private Calendar dataNascimento;
 	
+	public long getId() {
+		return this.id;
+	}
+	
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -58,4 +62,5 @@ public class Contato {
 	public String toString() {
 		return String.format("%d - %s - %s - %s - %s", this.id, this.nome, this.email, this.endereco, this.getDataNascimentoFormatada());
 	}
+
 }

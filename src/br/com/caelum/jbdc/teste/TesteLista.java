@@ -6,7 +6,7 @@ import java.util.List;
 import br.com.caelum.jbdc.dao.ContatoDao;
 import br.com.caelum.jbdc.modelo.Contato;
 
-public class TestasLista {
+public class TesteLista {
 	public static void main(String[] args) throws SQLException {
 		ContatoDao dao = new ContatoDao();
 		List<Contato> contatos = dao.getLista();

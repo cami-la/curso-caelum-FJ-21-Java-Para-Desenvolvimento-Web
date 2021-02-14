@@ -6,7 +6,7 @@ import java.util.Calendar;
 import br.com.caelum.jbdc.dao.ContatoDao;
 import br.com.caelum.jbdc.modelo.Contato;
 
-public class TestaInsere {
+public class TesteInsere {
 
 	public static void main(String[] args) throws SQLException {
 		//pronto para gravar
